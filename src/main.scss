@@ -1,11 +1,7 @@
-h1 {
-  color: red;
-}
-
-a{
-  color: aqua;
-  
-  &:hover{
-    color: rebeccapurple;
-  }
-}
+@import "scss/variable.scss";
+//
+@import "scss/normalize.scss";
+@import "scss/formalize.scss";
+@import "scss/global.scss";
+//
+@import "scss/header.scss";

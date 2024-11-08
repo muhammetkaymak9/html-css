@@ -5,11 +5,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="main.scss">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Hello World!</h1>
-  <a href="#">google.com</a>
+  
+  <header class="Header">
 
+    <div class="container">
+
+      <a class="Header-logo" href="">
+        <img src="img/site-logo.png" alt="">
+      </a>
+  
+      <div class="Header-menu">
+  
+        <div class="Header-menu-user">
+          <a href="">Register</a>
+          <a href="">Sign In</a>
+        </div>
+  
+        <button class="Header-menu-switch" type="button">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+            <path d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z"></path>
+          </svg>
+        </button>
+
+        <a class="button" href="">List your property</a>
+  
+        <div class="Header-menu-helper">
+          <select>
+            <option value="en">EN</option>
+          </select>
+          <select>
+            <option value="en">UAH</option>
+          </select>
+        </div>
+        
+      </div>
+      
+    </div>
+
+  </header>
 
   <script src="index.js"></script>
 </body>
